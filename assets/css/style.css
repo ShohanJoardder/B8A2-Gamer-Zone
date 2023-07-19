@@ -477,10 +477,14 @@ footer{
     .play-now{
         flex-direction: column;
     }
-   .side-image img{
-    width: 200px;
-    height: 200px;
-   }
+    .side-image img {
+        width: 390px;
+        height: 450px;
+    }
+    .side-image {
+        
+        padding: 20px;
+    }
    .career-container{
     padding: 20px;
    }
