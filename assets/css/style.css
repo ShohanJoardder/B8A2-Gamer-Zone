@@ -392,6 +392,15 @@ footer{
     border-radius: 50px;
     border: 1px solid transparent
 }
+#item-3 {
+    border: 1px solid #F948B2;
+}
+#item-3:hover{
+    border: 1px solid #4ec5f7;
+}
+#item-3 p{
+    color: #F948B2;
+}
 .item-list:hover{
     padding: 10px 10px;
     border-radius: 50px;
