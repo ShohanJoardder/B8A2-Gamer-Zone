@@ -45,9 +45,9 @@ body{
     line-height: 30px; /* 166.667% */
 }
 /* Header Section */
-header{
+/* header{
     width: 1920px;
-}
+} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -432,13 +432,80 @@ footer{
         padding: 20px;
     }
     .banner{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .banner-container{
         padding: 20px;
     }
+    .banner-container h2{
+        font-size: 50px;
+    }
+    .banner-container h4{
+        font-size: 30px;
+    }
     .banner img{
-        width: 100px;
-        height: 100px;
+        width: 300px;
+        height: 300px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .feature-img-section {
+        flex-direction: column;
+    }
+    .career{
+        flex-direction: column;
+    }
+    .career img{
+        width: 420px;
+        height: 420px;
+    }
+    .footer-container {
+        padding: 20px;
+    }
+    .footer-container ul, .social-icon{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .footer-term-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .play-now-container {
+        padding: 20px;
+    }
+    .play-now{
+        flex-direction: column;
+    }
+   .side-image img{
+    width: 200px;
+    height: 200px;
+   }
+   .career-container{
+    padding: 20px;
+   }
+   .item-container{
+    padding: 20px;
+   }
+   .feature-img-section{
+    padding: 20px;
+   }
+   .about-us{
+    flex-direction: column;
+    }
+    .about-us img{
+        padding: 20px;
+    }
+    .about-us-container {
+        padding: 20px;
+    }
+    .career-container p {
+        width: 100%;
+    }
+    .feature-img-container {
+        margin-bottom: -330px;
+    }
+    .play-now-container {
+        margin-top: 455px;
     }
 }
