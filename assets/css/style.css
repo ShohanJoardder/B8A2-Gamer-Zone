@@ -177,7 +177,7 @@ nav ul li{
 
 /* Feature style */
 .feature{
-    margin-bottom: -550px;
+    margin-bottom: -475px;
 }
 .feature-container h3{
     color: #0B0223;
@@ -231,6 +231,7 @@ nav ul li{
 /* play now */
 .play-now{
     display: flex;
+    margin-bottom: -170px;
 }
 .play-now-container{
     text-align: right;
@@ -259,6 +260,66 @@ nav ul li{
     position: relative;
     bottom: 290px;
     right: 173px;
+}
+
+
+/* Career Style */
+.career-section{
+    background-color: #F948B2;
+    
+}
+.career{
+    display: flex;
+}
+.career img{
+    width: 1013px;
+    height: 821px;
+
+}
+.career-container{
+    padding: 120px 0 120px 240px;
+}
+.career-container h3{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.career-container p{
+    margin-top: 24px;
+    color: #FFF;
+    width: 680px;
+}
+.career-container button{
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #FFF;
+    border: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #F948B2;
+    margin-top: 40px;
+}
+.career-desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+}
+.right h5{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.left{
+    text-align: right;
+}
+.left h5{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
 }
 /* Footer */
 footer{
@@ -310,6 +371,36 @@ footer{
     font-size: 16px;
     font-weight: 500;
     margin-top: 28px;
+}
+
+/* item */
+.item-container{
+    /* display: grid;
+    grid-template-columns: repeat(5, 1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 130px 282px 120px 239px;
+    gap: 27px;
+}
+.item-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.item-list:hover{
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: 1px solid #4ec5f7;
+}
+.item-list img{
+    width: 60px;
+    height: 60px;
+}
+.item-list p{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* Responsive for mobile */
