@@ -1,0 +1,326 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&family=Roboto:wght@500;700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Global style */
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    padding: 21px 40px;
+    background: #ff42a5;
+    border: 0;
+    border-radius: 48px;
+}
+.btn-secondary{
+    background: #4ec5f7;
+    margin-left: 19px;
+    padding: 21px 40px;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 600;
+    border: 0;
+    border-radius: 48px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+/* Header Section */
+header{
+    width: 1920px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 44px 240px;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-logo h3{
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-title-text{
+    color: #ff42a5;
+}
+.nav-button{
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0;
+}
+.youtube-svg{
+    margin-left: 24px;
+    margin-right: 16px;
+}
+.nav-button svg {
+    margin-bottom: -5px;
+}
+/* Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-container{
+    padding: 148px 299px 148px 240px;
+    background-image: url("/assets/images/Group 14.png");
+    background-repeat: no-repeat;
+}
+.banner-container h4{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner-container h2{
+    font-size: 95px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-container p{
+    color: #534C64;   
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 17px;
+}
+.banner-container p i{
+    color: #d74cc4;
+    font-size: 16px;
+}
+.banner-container button{
+    margin-top: 24px;
+    
+}
+.banner img{
+    width: 100%;
+    padding: 19px 231px 0 68px;
+}
+
+
+/* About Us */
+ .about-us{
+    display: flex;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.about-us img{
+    width: 100%;
+    padding: 55px 0 56px 240px;
+}
+.about-us-container{
+    text-align: right;
+    padding: 95px 240px 96px 52px;
+}
+.about-us-container .text{
+    margin-top: 24px;
+    margin-bottom: 32px;
+} 
+.about-us-container h4{
+    color: #534C64;
+    font-size: 31px;
+    font-weight: 700;
+}
+.about-us-container button{
+    margin-bottom: 24px;
+}
+.desc-text{
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+/* Feature style */
+.feature{
+    margin-bottom: -550px;
+}
+.feature-container h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 120px;
+}
+.feature-container p{
+    text-align: center;
+    margin-top: 16px;
+}
+.feature-img-section{
+    display: flex;
+    padding: 48px 240px 120px 240px;
+}
+.feature-img-section p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+.overlay{
+    position: relative;
+    width: 342px;
+    height: 400px;
+    background-color: #3C354F;
+    opacity: 0;
+    bottom: 475px;
+    border-radius: 20px;
+    text-align: center;
+}
+.overlay i{
+    font-size: 30px;
+    color: #fff;
+    top: 170px;
+    position: relative;
+}
+.overlay p{
+    color: #ff42a5;
+    font-size: 20px;
+    font-weight: 600;    
+    top: 170px;
+    position: relative;
+}
+.feature-img-container:hover .overlay{
+    opacity: 0.8;
+}
+
+
+/* play now */
+.play-now{
+    display: flex;
+}
+.play-now-container{
+    text-align: right;
+    padding-top: 336px;
+    padding-left: 427px;
+    padding-right: 265px;
+}
+.play-now-container h3{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.play-now-container p{
+    width: 353px;
+    margin-top: 24px;
+}
+.primary-title{
+    color: #F948B2;
+}
+.side-image{
+    padding-top: 120px;
+    padding-right: 240px;
+}
+.bottom-img{
+    position: relative;
+    bottom: 290px;
+    right: 173px;
+}
+/* Footer */
+footer{
+    background: #0B0223;
+}
+.footer-container{
+    padding: 120px 563px 130px 563px;
+}
+.footer-logo{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+.footer-title{
+    color: #FFF;
+}
+.footer-container ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container ul > li{
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.social-icon{
+    display: flex;
+    color: #fff;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 66px;
+    font-size: 35px;
+}
+.footer-term-list{
+    display: flex;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 60px;
+    margin-top: 74px;
+}
+.copy-write-text p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 28px;
+}
+
+/* Responsive for mobile */
+/* @media screen and (max-width: 576px) {
+    nav, nav > ul, .banner{
+        flex-direction: column;
+    }
+    .banner img{
+        padding: 20px;
+    }
+    .banner-container{
+        padding: 70px 190px;
+    }
+} */
